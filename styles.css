@@ -21,6 +21,24 @@
     color: whitesmoke;
 }
 
+.contenedor h1 {
+    background: linear-gradient(#ff0d0d, #ff0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* para cambiar el color del texto cuando se selecciona se usa un seudo selector */
+
+h1::selection {
+    color: black;
+}
+
+p::selection,
+h2::selection {
+    background-color: black;
+    color: white;
+}
+
 .bloque p {
     margin-bottom: 40px;
     font-size: 16px;
@@ -45,4 +63,25 @@
 
 .parallax.imagen-3 {
     background-image: url(https://images.pexels.com/photos/12406735/pexels-photo-12406735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+/* Texto 3-D */
+
+.texto {
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+    color: white;
+    text-align: center;
 }
