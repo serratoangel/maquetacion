@@ -1,0 +1,48 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.contenedor {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.bloque h2 {
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.bloque h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 160px;
+    line-height: 600px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.bloque p {
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.bloque.parallax {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    /* Esta propiedad permite el efecto parallax */
+    background-attachment: fixed;
+}
+
+.parallax.imagen-1 {
+    background-image: url(https://images.pexels.com/photos/12615239/pexels-photo-12615239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.parallax.imagen-2 {
+    background-image: url(https://images.pexels.com/photos/12615228/pexels-photo-12615228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.parallax.imagen-3 {
+    background-image: url(https://images.pexels.com/photos/12406735/pexels-photo-12406735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
